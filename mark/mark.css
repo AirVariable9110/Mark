@@ -1,0 +1,94 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+    border-radius: 5px;
+}
+
+body {
+    background-color: rgb(40, 40, 40);
+}
+
+.meg {
+    width: 80%;
+    margin: 0 auto;
+    padding: 16px;
+    position: fixed;
+    bottom: 16px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.chabox {
+    color: rgb(255, 255, 255);
+    width: 100%;
+    max-width: 80%;
+    overflow: hidden;
+    flex-wrap: wrap;
+}
+
+.chain {
+    width: calc(100% - 80px);
+    padding: 8px 16px;
+    font-size: 16px;
+    color: rgb(255, 255, 255);
+    background-color: rgb(60, 60, 60);
+    border: none;
+    border-radius: 4px;
+    margin-top: 8px;
+    outline: none;
+}
+
+.chabut {
+    width: 80px;
+    padding: 8px 16px;
+    font-size: 16px;
+    background-color: rgb(60, 60, 60);
+    color: rgb(255, 255, 255);
+    border: none;
+    cursor: pointer;
+    margin-top: 8px;
+    border-radius: 4px;
+}
+
+.message {
+    background-color: rgb(80, 80, 80);
+    padding: 15px;
+    display: block;
+    margin-left: 12vw;
+    margin-top: 2vh;
+}
+
+
+.chabut:hover {
+    background-color: rgb(80, 80, 80);
+}
+
+.chacon {
+    background-color: rgb(60, 60, 60);
+    padding: 16px;
+}
+
+.chat-message {
+    background-color: rgb(80, 80, 80);
+    padding: 15px;
+    display: table; /* Cambiar a table */
+    margin-left: 12vw;
+    margin-top: 2vh;
+}
+
+.user {
+    background-color: rgb(0, 123, 255);
+    padding: 15px;
+    display: inline-block;
+    margin-right: 12vw;
+    margin-top: 2vh;
+}
+
+.bot {
+    background-color: rgb(230, 230, 230);
+    color: rgb(0, 0, 0);
+    clear: both;
+    margin-left: 10vw;
+}
